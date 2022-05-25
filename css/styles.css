@@ -199,10 +199,12 @@ h2{
     
 .Block1{
     background-color: #dcf2fc;
-    border-radius: 5px;
     text-align: center;
     padding: 10px;
-   
+    border-radius: 10px;
+    
+    
+
 }
 
 .containerProduct{
@@ -355,6 +357,21 @@ h2{
 }
 
 
+.colorNavBar{
+    background-color: #f3f1f1;
+    position: sticky;
+    border-bottom: 2px solid #e7e9eb;
+    top: 0;
+    z-index: 30;
+}
+
+.fuentesNav{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 
 @media screen and (max-width:700px) {
@@ -453,7 +470,7 @@ h2{
     }
 
     .h2Product{
-        font-size: 15px;
+        font-size: 1.2rem;
     }
     
 }
